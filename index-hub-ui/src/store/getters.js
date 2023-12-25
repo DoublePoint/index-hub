@@ -14,5 +14,8 @@ const getters = {
   topbarRouters:state => state.permission.topbarRouters,
   defaultRoutes:state => state.permission.defaultRoutes,
   sidebarRouters:state => state.permission.sidebarRouters,
+  indexName:state => state.indexes.indexName,
+  indexStartDate:state => state.indexes.indexStartDate,
+  indexEndDate:state => state.indexes.indexEndDate
 }
 export default getters

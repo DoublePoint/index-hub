@@ -8,13 +8,16 @@ import '@mdi/font/css/materialdesignicons.css'  // 引入本地的Material Desig
 Vue.use(Vuetify)
 
 const opts = {
-    lang:{
-        locales: {zhHans},
-        current: 'zhHans'
-      },
-      icons:{
-        iconfont: 'mdi',	// 设置使用本地的icon资源
-      }
+  lang: {
+    locales: { zhHans },
+    current: 'zhHans'
+  },
+  icons: {
+    iconfont: 'mdi',	// 设置使用本地的icon资源
+  },
+  breakpoint: {
+    mobileBreakpoint: 'Large' // 这个值等于960
+  },
 }
 
 export default new Vuetify(opts)

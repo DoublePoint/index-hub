@@ -44,6 +44,11 @@ export const constantRoutes = [
     hidden: true
   },
   {
+    path: '/index-hub/index-main',
+    component: (resolve) => require(['@/views/index-hub/index-main.vue'], resolve),
+    hidden: true
+  },
+  {
     path: '/login',
     component: (resolve) => require(['@/views/login'], resolve),
     hidden: true
